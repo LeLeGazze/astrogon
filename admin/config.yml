@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: 你的GitHub用户名/fuwari  # ⚠️ 改1：你的用户名/fuwari
+  branch: main
+  site_domain: https://xxx.pages.dev  # ⚠️ 改2：你的Pages地址
+
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "posts"
+    label: "文章"
+    folder: "src/content/posts"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "发布日期", name: "published", widget: "datetime", date_format: "YYYY-MM-DD", time_format: "HH:mm" }
+      - { label: "标签", name: "tags", widget: "list", required: false }
+      - { label: "封面图", name: "cover", widget: "image", required: false }
+      - { label: "描述", name: "description", widget: "text", required: false }
+      - { label: "正文内容", name: "body", widget: "markdown" }
