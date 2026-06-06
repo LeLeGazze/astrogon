@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: 你的GitHub用户名/fuwari  # ⚠️ 改1：你的用户名/fuwari
+  repo: LeLeGazze # ⚠️ 改1：你的用户名/fuwari
   branch: main
-  site_domain: https://xxx.pages.dev  # ⚠️ 改2：你的Pages地址
+  site_domain: https://caleb-lab.pages.dev/  # ⚠️ 改2：你的Pages地址
 
 media_folder: "src/assets/images"
 public_folder: "/assets/images"
