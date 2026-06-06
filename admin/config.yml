@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: LeLeGazze # ⚠️ 改1：你的用户名/fuwari
+  repo: LeLeGazze/fuwari # ⚠️ 改1：你的用户名/fuwari
   branch: main
   site_domain: https://caleb-lab.pages.dev/  # ⚠️ 改2：你的Pages地址
 
